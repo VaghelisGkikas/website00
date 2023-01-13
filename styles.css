@@ -1,3 +1,7 @@
+* {
+    line-height: 3;
+}
+
 /* Navbar */
 .navbar {
     text-transform: uppercase;
@@ -11,11 +15,22 @@
 
 .navbar > div:nth-of-type(2) {
     flex: 2;
-    background-color: red;
     text-align: center;
 }
 
 .left-side, .right-side {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.left-side > div {
+    margin: 0 5;
+}
+
+.right-side > div {
+    margin: 0 5;
+}
+
+.heading {
+    font-size: 20px;
 }
