@@ -50,3 +50,31 @@
     width:65%;
     text-align: center;
 }
+
+/* content */
+
+.content {
+    margin: 50;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 90%;
+}
+
+.item {
+    display: flex;
+    flex-flow: column;
+}
+
+img {
+    height: 400px;
+    width: 250px;
+}
+
+artist-name {
+    
+}
