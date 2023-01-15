@@ -68,13 +68,24 @@
 .item {
     display: flex;
     flex-flow: column;
+    align-items: space-between;
 }
 
 img {
     height: 400px;
-    width: 250px;
+    width: 300px;
 }
 
-artist-name {
-    
+.artist-name, .job-description {
+    font-size: 12px;
+}
+
+.artist-name, .job-description, .location {
+    font-family: Arial;
+    text-transform: uppercase;
+}
+
+.location {
+    font-size: 8px;
+    opacity: 80%;
 }
